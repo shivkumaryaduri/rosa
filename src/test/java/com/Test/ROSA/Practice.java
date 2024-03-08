@@ -30,4 +30,8 @@ public class Practice  {
 		System.out.println("trial ===");
 
 }
+	@Test(groups= "regression")
+	public void demo() {
+		System.out.println("demo test ===");
+}
 }
