@@ -18,4 +18,9 @@ public class Practice  {
 	{
 		System.out.println("----testscript4_Test----");
 	}
+	
+	@Test(groups= "smoke")
+	public void jenkins() {
+		System.out.println("Jenkins ===");
+	}
 }
