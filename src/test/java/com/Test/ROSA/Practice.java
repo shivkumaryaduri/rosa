@@ -22,5 +22,12 @@ public class Practice  {
 	@Test(groups= "smoke")
 	public void jenkins() {
 		System.out.println("Jenkins ===");
+
 	}
+	
+	@Test(groups= "smoke")
+	public void trial() {
+		System.out.println("trial ===");
+
+}
 }
